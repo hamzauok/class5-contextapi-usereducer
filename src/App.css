@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1,h4{
+  padding: 10px 0;
+}
+
+button {
+  height: 35px;
+  width: 120px;
+  margin-left: 20px;
+}
+
+.child1{
+  margin: 0 auto;
+  height: 25vh;
+  background: #5C6BC0;
+  color:#E8EAF6;
+}
+
+.child2{
+  margin: 0 auto;
+  height: 25vh;
+  background: #01579B;
+  color:#E1F5FE;
 }
